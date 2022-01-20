@@ -9,7 +9,7 @@ body{
     align-items:justify;
     justify-content:space-around;
     width:620px;
-    height:620px;
+    height:820px;
    
  
 }
@@ -24,7 +24,7 @@ main{
     background-color: rgb(8, 7, 5);
     width:500px;
     border-top:1px solid black;
-    box-shadow:20px 20px 50px rgb(66, 60, 60); 
+    box-shadow:20px 20px 50px rgb(34, 32, 32); 
 }
 
 .numbers{
@@ -33,7 +33,7 @@ main{
     display:flex;
     flex-direction:column;
     width:440px;
-    height:440px;
+    height:660px;
 
     
     align-items:justify;
@@ -41,7 +41,7 @@ main{
 }
 
 
-#display{
+.display{
    width:430px;
    margin: 10px;
    height:70px;

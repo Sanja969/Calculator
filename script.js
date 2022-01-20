@@ -17,7 +17,7 @@ function operate(operator,a,b){
    
     
 }
-window.onload = () => {
+
 numbers = document.querySelector(".numbers");
 operators = document.querySelector(".operators");
 const a=[];
@@ -46,6 +46,7 @@ for(let i=0;i<5;i++){
         a[i][j].style.fontSize='20px';
         a[i][j].style.border = "3px outset rgb(50, 0, 0)";
         a[i][j].style.boxShadow = "20px 20px 50px rgb(50, 0, 0)"; 
+        
     }
 
 
@@ -71,6 +72,56 @@ a[4][1].textContent = "pow";
 a[4][2].textContent = "1/a";
 a[4][3].textContent = "log";
 
+let display=document.querySelector('#display');
+for(let i=0;i<5;i++)
+{
+    
+    for(let j=0;j<4;j++)
+    {
 
+        a[i][j].addEventListener("mouseover", function () {
+           
+            a[i][j].style.backgroundColor = "yellow";
+            
+        });
+        a[i][j].addEventListener("mouseout", function () {
+           
+            a[i][j].style.backgroundColor = "orange";
+            
+        });
 
+        a[i][j].addEventListener("click", function () {
+        if(typeof(i.textContent)!=Number && display==''){
+            return;
+        }
+        switch (i.textContent) {
+          case "RESET":
+            display = "";
+            break;
+          case "CLEAR":
+            display.charAt(-1) = "";
+            break;
+          case "a!":
+            display = "";
+            break;
+          case "+":
+            display = "";
+            break;
+          case "1":
+            display = "";
+            break;
+          case "2":
+            display = "";
+            break;
+          case "2":
+            display = "";
+            break;
+        }
+        
+        
+    });
+    }
+    
 }
+
+

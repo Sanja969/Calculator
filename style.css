@@ -9,7 +9,11 @@ html{
     display:flex;
     align-items:justify;
     justify-content:space-around;
-    background-color: rgb(104, 102, 99);
+    
+    background-image: url('Images/200.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 

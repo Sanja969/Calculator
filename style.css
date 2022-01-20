@@ -4,12 +4,21 @@
     font-family: 'Mochiy Pop P One', sans-serif;
 
 }
+
+html{
+    display:flex;
+    align-items:justify;
+    justify-content:space-around;
+    background-color: rgb(104, 102, 99);
+}
+
+
 body{
     display:flex;
     align-items:justify;
     justify-content:space-around;
     width:620px;
-    height:820px;
+    height:840px;
    
  
 }

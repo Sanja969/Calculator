@@ -1,0 +1,53 @@
+*{
+    text-align:center;
+    color:rgb(243, 245, 241);
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+body{
+    display:flex;
+    align-items:justify;
+    justify-content:space-around;
+    width:620px;
+    height:620px;
+   
+ 
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-image: url('https://cdn.pixabay.com/photo/2020/08/20/10/42/planets-5503203_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(8, 7, 5);
+    width:500px;
+    border-top:1px solid black;
+    box-shadow:20px 20px 50px rgb(66, 60, 60); 
+}
+
+.numbers{
+    padding:5px;
+    /* background-color:aqua; */
+    display:flex;
+    flex-direction:column;
+    width:440px;
+    height:440px;
+
+    
+    align-items:justify;
+    justify-content:space-around;
+}
+
+
+#display{
+   width:430px;
+   margin: 10px;
+   height:70px;
+   padding: 10px;
+   border: 3px inset rgb(109, 89, 89);
+   border-radius: 10px;
+   box-shadow:20px 20px 50px rgb(200, 80, 0); 
+   
+}

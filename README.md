@@ -8,7 +8,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/Sanja969/Calculator)
+[Live Demo Link](https://sanja969.github.io/Calculator/)
 
 
 ## Authors
